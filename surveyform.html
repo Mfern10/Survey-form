@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lan="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Nest Clothing Co Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+  <h1 id="title">Nest Clothing Co Survery Form</h1>
+  <p id="description">Thank you for taking the time to complete this survey</p>
+  <form id="survey-form">
+  <fieldset>
+   <label id="name-label">Name:<input placeholder="Enter your name" id="name" required></input></label>
+   <label id="email-label">Email:<input placeholder="Enter your email address" id="email" type="email" required></input></label>
+   <label id="number-label">Age:<input placeholder="Select your age" id="number" type="number" min="1" max="120"></input></label>
+    </fieldset>
+    <fieldset>
+      <label id="name-label">How did you hear about us?<select id="dropdown"><option id="option 1">Please Select an option</option><option id="option 2">Facebook</option><option id="option 3">Instagram</option><option id="option 4">Google</option></select>
+      </fieldset>
+      <fieldset> 
+        <label id="radio-label1">What do you like about us?</label>
+        <input name="radio" value="1" type="radio"> Clothing Designs </input>
+        <input name="radio" value="2" type="radio"> Clothing Material </input>
+        </fieldset>
+        <fieldset>
+          <label id="Checkbox"> What do you want from us next?</label>
+          <input value="1" type="checkbox">More Designs</input>
+          <input value="2" type="checkbox">More Give-aways</input>
+        </fieldset>
+        <fieldset>
+          <label for="advice"> How can we improve your experience?</>
+          <textarea id="Advice" name="advice" rows="3" cols="30" placeholder="Tell us what we can do to make your experience better..."></textarea>
+          </fieldset>
+      
+        <button type="submit" id="submit">Submit</button>
+        
+      </form>
+ </body>
+</html>
